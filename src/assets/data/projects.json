@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Vinted",
+    "type": "Projet Full-Stack Web",
+    "description": [
+      "Inscription / Connexion",
+      "Récupération de données",
+      "Publication d'annonces",
+      "Barre de recherche",
+      "Paiement",
+      "Upload de Photo"
+    ],
+    "github-front": "https://github.com/Gregoire-Paulay/Vinted-Front",
+    "github-back": "https://github.com/Gregoire-Paulay/Vinted-BackEnd",
+    "picture": "https://res.cloudinary.com/dy2ayuond/image/upload/v1697725465/Vinted-gp.png",
+    "link": "https://vinted-front-gp.netlify.app"
+  },
+  {
+    "name": "Airbnb",
+    "type": "Projet Full-Stack Mobile",
+    "description": [
+      "Inscription / Connexion",
+      "Modification Profil Utilisateur",
+      "Affichage de cartes",
+      "Géolocalisation",
+      "Accès à la galerie d'image",
+      "Accès à l'appareil photo"
+    ],
+    "github-front": "https://github.com/Gregoire-Paulay/Airbnb-Mobile",
+    "picture": "https://res.cloudinary.com/dy2ayuond/image/upload/v1697725698/airbnb_utohhu.png"
+  },
+  {
+    "name": "Marvel",
+    "type": "Projet Full-Stack Web",
+    "description": [
+      "Inscription / Connexion",
+      "Barre de recherche",
+      "Pagination",
+      "Gestion des Favoris"
+    ],
+    "github-front": "https://github.com/Gregoire-Paulay/Marvel-Front",
+    "github-back": "https://github.com/Gregoire-Paulay/Marvel-Back",
+    "picture": "https://res.cloudinary.com/dy2ayuond/image/upload/v1697817771/Marvel/Home.png",
+    "link": "https://marvel-gp.netlify.app"
+  },
+  {
+    "name": "TechSight",
+    "type": "Projet Full-Stack Mobile",
+    "description": [
+      "Application de veille technologique",
+      "Feed d'actualités automatisé avec un Cronjob",
+      "Jeu type Flipcards avec choix difficultés et thèmes",
+      "Gestion des Favoris",
+      "Share"
+    ],
+    "github-front": "",
+    "github-back": "",
+    "picture": "https://res.cloudinary.com/dy2ayuond/image/upload/v1699022017/TechSight.png",
+    "link": "https://appetize.io/app/pakq7wyr73bfs6u3p3d2g2n2ay?device=pixel7&osVersion=13.0"
+  },
+  {
+    "name": "Poké-Info",
+    "type": "Projet Web",
+    "description": [
+      "Typescript",
+      "Utilisation de Zod pour valider les infos reçu de l'API",
+      "Information diverses sur les pokémons, leurs types, etc"
+    ],
+    "github-front": "https://github.com/Gregoire-Paulay/Poke-Info",
+    "github-back": "",
+    "picture": "https://res.cloudinary.com/dy2ayuond/image/upload/v1699016062/PokéInfo-Home.png",
+    "link": "https://pokeinfo-gp.netlify.app/"
+  }
+]

@@ -1,0 +1,205 @@
+/* -------------- GENERAL ------------- */
+:root {
+  --dark: #111111;
+  --light: white;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+/* ------ Gestion light/dark mode ------ */
+.night {
+  background-color: var(--dark);
+  color: var(--light);
+}
+.light {
+  background-color: var(--light);
+  color: var(--dark);
+}
+
+.moon {
+  position: absolute;
+  top: 8px;
+  right: 100px;
+  cursor: pointer;
+  font-size: 28px;
+  color: var(--dark);
+  background-color: var(--light);
+  border: none;
+  border-radius: 50%;
+  border: 1px solid white;
+  z-index: 1;
+}
+.moon:hover {
+  border: 1px solid black;
+  background-color: gray;
+}
+.sun {
+  position: absolute;
+  top: 8px;
+  right: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 26px;
+  color: var(--light);
+  border: 1px solid var(--dark);
+  background-color: var(--dark);
+  border-radius: 50%;
+  z-index: 1;
+}
+.sun:hover {
+  border: 1px solid white;
+  background-color: gray;
+}
+
+/* --------- Gestion langue ---------- */
+.frButton {
+  position: absolute;
+  top: 8px;
+  left: 100px;
+  background-color: rgb(230, 230, 230);
+  border: 2px solid lightseagreen;
+  border-radius: 8px;
+  font-size: 23px;
+  color: rgb(27, 151, 145);
+  width: 90px;
+  cursor: pointer;
+  padding: 5px 0;
+}
+.frButton:hover {
+  background-color: lightseagreen;
+  border: 2px solid black;
+  color: black;
+}
+.enButton {
+  position: absolute;
+  top: 8px;
+  left: 100px;
+  background-color: rgb(230, 230, 230);
+  border: 2px solid lightseagreen;
+  border-radius: 8px;
+  font-size: 23px;
+  color: rgb(27, 151, 145);
+  width: 90px;
+  cursor: pointer;
+  padding: 5px 0;
+}
+.enButton:hover {
+  background-color: lightseagreen;
+  border: 2px solid black;
+  color: black;
+}
+
+/* ----------------------------------- */
+/* -------------- HEADER ------------- */
+/* ----------------------------------- */
+header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  height: 80px;
+  padding-left: 40px;
+  border-bottom: 1px solid lightgray;
+}
+
+/* ----------------------------------- */
+/* --------------- MAIN -------------- */
+/* ----------------------------------- */
+main {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+/* ----------------------------------- */
+/* -------------- FOOTER ------------- */
+/* ----------------------------------- */
+footer {
+  padding: 30px;
+  margin-top: 40px;
+  border-top: 1px solid lightgray;
+  background-color: #190d33;
+  color: white;
+}
+footer > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+footer > div > div:first-of-type {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  gap: 50px;
+  border-bottom: 1px solid #333333;
+  padding-bottom: 10px;
+}
+
+.footerDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.footerDescription > p:first-of-type {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+.footerLink {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.footerLink > p:first-child {
+  color: #dea923;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer a:hover {
+  cursor: pointer;
+  color: #d3a026;
+}
+
+/* ----------------------------------- */
+/* ----------------------------------- */
+/* ----------- MEDIA QUERY ----------- */
+/* ----------------------------------- */
+/* ----------------------------------- */
+@media (max-width: 1200px) {
+  .container {
+    max-width: 95%;
+  }
+}
+
+/* ----------- MEDIA 500PX ----------- */
+@media (max-width: 500px) {
+  footer > div > div:first-of-type {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .footerDescription {
+    align-items: center;
+  }
+  .footerMe {
+    text-align: center;
+  }
+}
