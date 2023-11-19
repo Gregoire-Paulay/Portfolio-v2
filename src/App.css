@@ -13,9 +13,11 @@ body {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 40px;
   font-weight: bold;
   padding: 10px 0;
+  margin-bottom: 20px;
+  margin-top: 50px;
 }
 
 /* ------ Gestion light/dark mode ------ */
@@ -31,7 +33,7 @@ h1 {
 .moon {
   position: absolute;
   top: 8px;
-  right: 100px;
+  right: 12%;
   cursor: pointer;
   font-size: 28px;
   color: var(--dark);
@@ -48,7 +50,7 @@ h1 {
 .sun {
   position: absolute;
   top: 8px;
-  right: 100px;
+  right: 12%;
   border-radius: 50%;
   cursor: pointer;
   font-size: 26px;
@@ -67,7 +69,7 @@ h1 {
 .frButton {
   position: absolute;
   top: 8px;
-  left: 100px;
+  left: 12%;
   background-color: rgb(230, 230, 230);
   border: 2px solid lightseagreen;
   border-radius: 8px;
@@ -85,7 +87,7 @@ h1 {
 .enButton {
   position: absolute;
   top: 8px;
-  left: 100px;
+  left: 12%;
   background-color: rgb(230, 230, 230);
   border: 2px solid lightseagreen;
   border-radius: 8px;
@@ -105,21 +107,143 @@ h1 {
 /* -------------- HEADER ------------- */
 /* ----------------------------------- */
 header {
+  /* border: 3px solid blue; */
   display: flex;
   align-items: center;
-  gap: 30px;
   height: 80px;
-  padding-left: 40px;
   border-bottom: 1px solid lightgray;
+}
+header > div {
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: center;
+}
+.header-nav {
+  /* border: 1px solid red; */
+  width: 70%;
+  display: flex;
+  justify-content: center;
 }
 
 /* ----------------------------------- */
 /* --------------- MAIN -------------- */
 /* ----------------------------------- */
-main {
-  text-align: center;
-  margin-top: 80px;
-  margin-bottom: 100px;
+
+/* ------------- PAGE HOME ----------- */
+.homePage {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile {
+  width: 90%;
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.profileDesc {
+  font-size: 30px;
+}
+.profileName {
+  font-size: 45px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+.profilePic {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.homeLink {
+  display: flex;
+  gap: 23px;
+  margin-top: 35px;
+}
+.contact {
+  display: flex;
+  gap: 15px;
+  font-size: 17px;
+  background-color: #2858c8;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 12px;
+}
+.contact:hover {
+  cursor: pointer;
+  background-color: #1f4295;
+}
+.homePage a {
+  text-decoration: none;
+}
+
+.homeSkills {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.homeSkills > div {
+  border: 2px solid blue;
+  display: flex;
+  gap: 50px;
+}
+.homeSkills > div > div {
+  border: 3px solid green;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ----------- PAGE ABOUTME ---------- */
+.aboutMeDescLight {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+}
+.aboutMeDescLight > p {
+  /* border: 3px solid blue; */
+  width: 70%;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 10px;
+  border-radius: 12px;
+  background-color: #d7eef7;
+}
+.aboutMeDescLight a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.aboutMeDescNight {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+}
+.aboutMeDescNight > p {
+  /* border: 3px solid blue; */
+  width: 70%;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 10px;
+  border-radius: 12px;
+  background-color: #1d2529;
+}
+.aboutMeDescNight a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 /* ----------------------------------- */

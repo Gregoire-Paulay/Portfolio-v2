@@ -10,6 +10,7 @@ import Language from "./components/language";
 
 //Page
 import Home from "./page/Home";
+import AboutMe from "./page/AboutMe";
 
 const App = () => {
   const { theme } = useThemeContext();
@@ -20,6 +21,8 @@ const App = () => {
         <Theme />
         <Language />
         <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/AboutMe" element={<AboutMe />} />
           <Route path="/" element={<Home />} />
         </Routes>
 
