@@ -22,7 +22,14 @@ const Header = () => {
           >
             {language === "fr" ? " À propos" : " About Me"}
           </button>
-          <button> {language === "fr" ? " Projets" : " Projects"}</button>
+          <button
+            onClick={() => {
+              navigate("/Projects");
+            }}
+          >
+            {" "}
+            {language === "fr" ? " Projets" : " Projects"}
+          </button>
           <button> {language === "fr" ? " Formations" : " Courses"}</button>
           <button>Contacts</button>
         </div>

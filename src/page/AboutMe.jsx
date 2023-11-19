@@ -51,20 +51,19 @@ const AboutMe = () => {
               mobile development.
             </p>
             <p>
-              Je viens de terminez ma formation chez
-              <a href="https://www.lereacteur.io"> Le Reacteur</a> et suis
-              actuellement à la recherche d'un stage de 6 mois pour obtenir mon
-              titre RNCP lié à cette formation.
+              I just finished my training at{" "}
+              <a href="https://www.lereacteur.io"> Le Reacteur</a> and i am
+              currently looking for a 6 month internship to obtain my RNCP title
+              linked to my training.
             </p>
             <p>
-              Ce bootcamp intensif m'a permis d'acquérir des compétences solides
-              en développement fullstack. J'ai pu apprendre à maitriser
-              Javascript, Node.js, React et MongoDB. Grâce à une pédagogie axée
-              sur la pratique, j'ai développé une base solide pour concevoir et
-              déployer des applications web et mobiles. Le programme m'a
-              également outillé pour résoudre des problèmes complexes, me
-              concentrer en premier lieu sur le fonctionnel et m'adapter
-              rapidement aux évolutions technologiques.
+              This intensive bootcamp allowed me to acquire solid skills in
+              full-stack development. I was able to learn to master JavaScript,
+              Node.js, React, React Native, MongoDB and TypeScript. Thanks to
+              being focused on practice, i developed a solid foundation for
+              designing and deploy web and mobile applications. The bootcamp
+              also gave me tools to solve complex problems, focus first on the
+              functional side and to adapt quickly to technological development.
             </p>
           </div>
         )}

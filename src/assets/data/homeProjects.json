@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Vinted",
+    "type": "Projet Full-Stack Web",
+    "descriptionFr": "Réplique du site Vinted, création de compte, d'offres, d'achats, ... .",
+    "descriptionEn": "Replica of the Vinted site, account creation, offers, purchases, ... .",
+    "github-front": "https://github.com/Gregoire-Paulay/Vinted-Front",
+    "github-back": "https://github.com/Gregoire-Paulay/Vinted-BackEnd",
+    "picture": "https://res.cloudinary.com/dy2ayuond/image/upload/v1697725465/Vinted-gp.png",
+    "link": "https://vinted-front-gp.netlify.app"
+  },
+  {
+    "name": "Marvel",
+    "type": "Projet Full-Stack Web",
+    "descriptionFr": "Site Web qui recense les héros et comics Marvel, et permet d'avoir des détails sur chaque ainsi qu'une gestion des favoris.",
+    "descriptionEn": "Website which lists Marvel heroes and comics, also provides details on each of them as well as management of favorites.",
+    "github-front": "https://github.com/Gregoire-Paulay/Marvel-Front",
+    "github-back": "https://github.com/Gregoire-Paulay/Marvel-Back",
+    "picture": "https://res.cloudinary.com/dy2ayuond/image/upload/v1697817771/Marvel/Home.png",
+    "link": "https://marvel-gp.netlify.app"
+  },
+  {
+    "name": "TechSight",
+    "type": "Projet Full-Stack Mobile",
+    "descriptionFr": "MVP d'une application de Veille technologique avec un feed d'actualités mis à jour quotidiennement ainsi qu'un jeu de type Flipcard.",
+    "descriptionEn": "MVP of a Technology Monitoring application with a daily updated news feed as well as a Flipcard type game.",
+    "github-front": "",
+    "github-back": "",
+    "picture": "https://res.cloudinary.com/dy2ayuond/image/upload/v1699022017/TechSight.png",
+    "link": "https://appetize.io/app/pakq7wyr73bfs6u3p3d2g2n2ay?device=pixel7&osVersion=13.0"
+  }
+]
