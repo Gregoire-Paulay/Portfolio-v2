@@ -29,19 +29,19 @@ const HomeProjects = () => {
               </p>
 
               <a href={project.link} className="siteLink">
-                <i className="fa-solid fa-link"></i>
+                <i className="fa-solid fa-arrow-up-right-from-square"></i>
               </a>
               <div className="homeProjectGit">
                 {project["github-front"] && (
                   <a href={project["github-front"]} className="contact">
                     <i className="fa-brands fa-github"></i>
-                    Github front
+                    Front-end
                   </a>
                 )}
                 {project["github-back"] && (
                   <a href={project["github-back"]} className="contact">
                     <i className="fa-brands fa-github"></i>
-                    Github back
+                    Back-end
                   </a>
                 )}
               </div>

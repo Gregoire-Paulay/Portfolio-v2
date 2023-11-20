@@ -9,6 +9,7 @@ const Header = () => {
       <div className="container">
         <div className="header-nav">
           <button
+            className="nav-first"
             onClick={() => {
               navigate("/");
             }}
@@ -27,11 +28,17 @@ const Header = () => {
               navigate("/Projects");
             }}
           >
-            {" "}
             {language === "fr" ? " Projets" : " Projects"}
           </button>
-          <button> {language === "fr" ? " Formations" : " Courses"}</button>
-          <button>Contacts</button>
+          {/* <button> {language === "fr" ? " Formations" : " Courses"}</button> */}
+          <button
+            className="nav-last"
+            onClick={() => {
+              navigate("/Contacts");
+            }}
+          >
+            Contacts
+          </button>
         </div>
       </div>
     </header>

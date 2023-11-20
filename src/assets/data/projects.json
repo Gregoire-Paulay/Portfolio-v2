@@ -2,13 +2,21 @@
   {
     "name": "Vinted",
     "type": "Projet Full-Stack Web",
-    "description": [
-      "Inscription / Connexion",
-      "Récupération de données",
-      "Publication d'annonces",
-      "Barre de recherche",
-      "Paiement",
-      "Upload de Photo"
+    "descriptionFr": "Ce projet est une réplique du site Vinted. Différents filtres sont disponibles pour affiner les offres visibles. Une fois authentifié, l'utilisateur peut créer et acheter des offres. l'API utilisée pour les achats est Stripe.",
+    "descriptionEn": "",
+    "techno": [
+      {
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgyjh6v-cC_N5ASJ7hG9Hk5_7OFyKzvNQbRw&usqp=CAU",
+        "name": "React"
+      },
+      {
+        "logo": "https://banner2.cleanpng.com/20180425/jrw/kisspng-node-js-javascript-web-application-express-js-comp-5ae0f84e2a4242.1423638015246930701731.jpg",
+        "name": "Node.js"
+      },
+      {
+        "logo": "https://e7.pngegg.com/pngimages/768/167/png-clipart-mongodb-nosql-document-oriented-database-nosql-icon-leaf-grass.png",
+        "name": "MongoDB"
+      }
     ],
     "github-front": "https://github.com/Gregoire-Paulay/Vinted-Front",
     "github-back": "https://github.com/Gregoire-Paulay/Vinted-BackEnd",
@@ -16,27 +24,23 @@
     "link": "https://vinted-front-gp.netlify.app"
   },
   {
-    "name": "Airbnb",
-    "type": "Projet Full-Stack Mobile",
-    "description": [
-      "Inscription / Connexion",
-      "Modification Profil Utilisateur",
-      "Affichage de cartes",
-      "Géolocalisation",
-      "Accès à la galerie d'image",
-      "Accès à l'appareil photo"
-    ],
-    "github-front": "https://github.com/Gregoire-Paulay/Airbnb-Mobile",
-    "picture": "https://res.cloudinary.com/dy2ayuond/image/upload/v1697725698/airbnb_utohhu.png"
-  },
-  {
     "name": "Marvel",
     "type": "Projet Full-Stack Web",
-    "description": [
-      "Inscription / Connexion",
-      "Barre de recherche",
-      "Pagination",
-      "Gestion des Favoris"
+    "descriptionFr": "Ce projet recense tous les héros et les comics Marvel et permet donc d'obtenir des informations tel que la liste des comics ou l'on trouve Spider-Man. Une barre de recherche est disponible afin de faciliter la recherche des utilisateurs. Une fois authentifié, l'utilisateur peut ajouter/supprimez des personnages ou des des comics dans sa liste de favoris et les consulter.",
+    "descriptionEn": "",
+    "techno": [
+      {
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgyjh6v-cC_N5ASJ7hG9Hk5_7OFyKzvNQbRw&usqp=CAU",
+        "name": "React"
+      },
+      {
+        "logo": "https://banner2.cleanpng.com/20180425/jrw/kisspng-node-js-javascript-web-application-express-js-comp-5ae0f84e2a4242.1423638015246930701731.jpg",
+        "name": "Node.js"
+      },
+      {
+        "logo": "https://e7.pngegg.com/pngimages/768/167/png-clipart-mongodb-nosql-document-oriented-database-nosql-icon-leaf-grass.png",
+        "name": "MongoDB"
+      }
     ],
     "github-front": "https://github.com/Gregoire-Paulay/Marvel-Front",
     "github-back": "https://github.com/Gregoire-Paulay/Marvel-Back",
@@ -46,12 +50,25 @@
   {
     "name": "TechSight",
     "type": "Projet Full-Stack Mobile",
-    "description": [
-      "Application de veille technologique",
-      "Feed d'actualités automatisé avec un Cronjob",
-      "Jeu type Flipcards avec choix difficultés et thèmes",
-      "Gestion des Favoris",
-      "Share"
+    "descriptionFr": "Application de Veille Technologique qui permet de se tenir informé grâce à un feed d'actualités mis à jour quotidiennement avec des articles provenant de différents média (HackerNews, Media, Lorber Newsletter). Possibilités d'ajouter les articles en favoris mais également de les partager sur ses réseaux. Un jeu de type flipcards avec différents thèmes et difficultés est présent afin de tester ses connaissances dans le domaine de la tech / du développement.",
+    "descriptionEn": "",
+    "techno": [
+      {
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgyjh6v-cC_N5ASJ7hG9Hk5_7OFyKzvNQbRw&usqp=CAU",
+        "name": "React-Native / Expo"
+      },
+      {
+        "logo": "https://banner2.cleanpng.com/20180425/jrw/kisspng-node-js-javascript-web-application-express-js-comp-5ae0f84e2a4242.1423638015246930701731.jpg",
+        "name": "Node.js"
+      },
+      {
+        "logo": "https://e7.pngegg.com/pngimages/768/167/png-clipart-mongodb-nosql-document-oriented-database-nosql-icon-leaf-grass.png",
+        "name": "MongoDB"
+      },
+      {
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkwyFunW-iF75-gbQ0Pqfz_hqSYtujaH-8GGWE1zDUpXoePErmawaDHuEBt6Qldfnp9sY&usqp=CAU",
+        "name": "ForestAdmin"
+      }
     ],
     "github-front": "",
     "github-back": "",
@@ -61,10 +78,17 @@
   {
     "name": "Poké-Info",
     "type": "Projet Web",
-    "description": [
-      "Typescript",
-      "Utilisation de Zod pour valider les infos reçu de l'API",
-      "Information diverses sur les pokémons, leurs types, etc"
+    "descriptionFr": "Projet qui recense et donne des détails sur tout les pokémons , types, talent et capacités exisantes. Les données utilisés proviennent toutes de l'API Pokémon - PokéAPI. Utilisation de Zod afin de valider dynamiquement les données provenant de l'API.",
+    "descriptionEn": "",
+    "techno": [
+      {
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgyjh6v-cC_N5ASJ7hG9Hk5_7OFyKzvNQbRw&usqp=CAU",
+        "name": "React"
+      },
+      {
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png?20221110153201",
+        "name": "TypeScript"
+      }
     ],
     "github-front": "https://github.com/Gregoire-Paulay/Poke-Info",
     "github-back": "",

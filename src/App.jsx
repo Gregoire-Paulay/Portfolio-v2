@@ -12,6 +12,7 @@ import Language from "./components/language";
 import Home from "./page/Home";
 import AboutMe from "./page/AboutMe";
 import Projects from "./page/Projects";
+import Contacts from "./page/Contact";
 
 const App = () => {
   const { theme } = useThemeContext();
@@ -25,6 +26,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/AboutMe" element={<AboutMe />} />
           <Route path="/Projects" element={<Projects />} />
+          <Route path="/Contacts" element={<Contacts />} />
         </Routes>
 
         <Footer />
