@@ -9,7 +9,7 @@ import HomeProjects from "../components/Home/HomeProjects";
 const Home = () => {
   const { language } = useLanguageContext();
   return (
-    <>
+    <main>
       <div className="container">
         <div className="homePage">
           <h1>{language === "fr" ? "Accueil" : "Home"}</h1>
@@ -29,7 +29,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </>
+    </main>
   );
 };
 

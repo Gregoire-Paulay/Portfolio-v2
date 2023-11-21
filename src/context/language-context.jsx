@@ -5,7 +5,7 @@ export const LanguageContext = createContext(null);
 
 export default function LanguageContextProvider({ children }) {
   const [language, setLanguage] = useState(
-    Cookies.get("language") ? "fr" : "en"
+    Cookies.get("language") ? "en" : "fr"
   );
   return (
     <LanguageContext.Provider value={{ language, setLanguage }}>

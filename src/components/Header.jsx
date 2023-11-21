@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header>
       <div className="container">
-        <div className="header-nav">
+        <nav className="header-nav">
           <button
             className="nav-first"
             onClick={() => {
@@ -39,7 +39,7 @@ const Header = () => {
           >
             Contacts
           </button>
-        </div>
+        </nav>
       </div>
     </header>
   );

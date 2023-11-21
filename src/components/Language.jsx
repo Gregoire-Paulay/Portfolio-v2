@@ -5,7 +5,7 @@ import Cookies from "js-cookie";
 const Language = () => {
   const { language, setLanguage } = useLanguageContext();
   const [languageButton, setLanguageButton] = useState(
-    Cookies.get("language") ? "frButton" : "enButton"
+    Cookies.get("language") ? "enButton" : "frButton"
   );
 
   return (

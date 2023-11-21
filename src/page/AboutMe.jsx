@@ -5,7 +5,7 @@ const AboutMe = () => {
   const { language } = useLanguageContext();
   const { theme } = useThemeContext();
   return (
-    <>
+    <main>
       <div className="container">
         {language === "fr" ? (
           <div
@@ -68,7 +68,7 @@ const AboutMe = () => {
           </div>
         )}
       </div>
-    </>
+    </main>
   );
 };
 

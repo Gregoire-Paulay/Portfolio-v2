@@ -94,6 +94,12 @@ h3 {
   border: 2px solid var(--bcgLight);
   color: var(--bcgLight);
 }
+.frButton p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
 .enButton {
   position: absolute;
   top: 8px;
@@ -111,6 +117,12 @@ h3 {
   background-color: var(--bcgDark);
   border: 2px solid var(--bcgLight);
   color: var(--bcgLight);
+}
+.enButton p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
 }
 
 /* -------------- LIEN ------------- */
@@ -644,23 +656,23 @@ footer > div > div:first-of-type {
 .footerDescription {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 8px;
 }
 .footerDescription > p:first-of-type {
   font-weight: bold;
-  font-size: 18px;
-  margin-bottom: 3px;
+  font-size: 20px;
+  margin-bottom: 8px;
 }
 .footerLink {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 6px;
 }
 .footerLink > p:first-child {
   color: var(--orange);
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 9px;
 }
 
 footer a {
