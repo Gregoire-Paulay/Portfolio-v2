@@ -19,56 +19,64 @@ const HomeSkills = () => {
       <div>
         <section>
           <h3>{language === "fr" ? "Langages" : "Languages"}</h3>
-          <a href="https://developer.mozilla.org/fr/docs/Web/HTML">
-            <img src={html} alt="logo HTML" />
-          </a>
-          <a href="https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/CSS_basics">
-            <img src={css} alt="logo CSS" />
-          </a>
-          <a href="https://www.javascript.com">
-            <img src={js} alt="logo JS" />
-          </a>
-          <a href="https://www.typescriptlang.org/">
-            <img src={ts} alt="logo TS" />
-          </a>
+          <div className="homeSkillsDetails">
+            <a href="https://developer.mozilla.org/fr/docs/Web/HTML">
+              <img src={html} alt="logo HTML" />
+            </a>
+            <a href="https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/CSS_basics">
+              <img src={css} alt="logo CSS" />
+            </a>
+            <a href="https://www.javascript.com">
+              <img src={js} alt="logo JS" />
+            </a>
+            <a href="https://www.typescriptlang.org/">
+              <img src={ts} alt="logo TS" />
+            </a>
+          </div>
         </section>
 
         <section>
           <h3>Front-End</h3>
-          <a href="https://react.dev/">
-            <img src={react} alt="Logo React" />
-            <p>React</p>
-          </a>
-          <a href="https://reactnative.dev/">
-            <img src={react} alt="Logo React" />
-            <p>React Native</p>
-          </a>
-          <a href="https://tailwindcss.com/">
-            <img src={tailwind} alt="Logo Tailwind" />
-            <p>TailWind / NativeWind</p>
-          </a>
+          <div className="homeSkillsDetails">
+            <a href="https://react.dev/">
+              <img src={react} alt="Logo React" />
+              <p>React</p>
+            </a>
+            <a href="https://reactnative.dev/">
+              <img src={react} alt="Logo React" />
+              <p>React Native</p>
+            </a>
+            <a href="https://tailwindcss.com/">
+              <img src={tailwind} alt="Logo Tailwind" />
+              <p>TailWind / NativeWind</p>
+            </a>
+          </div>
         </section>
 
         <section>
           <h3>Back-End</h3>
-          <a href="https://nodejs.org/fr">
-            <img src={node} alt="Logo Node-js" />
-          </a>
-          <a href="https://www.mongodb.com/fr-fr">
-            <img src={mongo} alt="Logo MongoDB" />
-          </a>
+          <div className="homeSkillsDetails">
+            <a href="https://nodejs.org/fr">
+              <img src={node} alt="Logo Node-js" />
+            </a>
+            <a href="https://www.mongodb.com/fr-fr">
+              <img src={mongo} alt="Logo MongoDB" />
+            </a>
+          </div>
         </section>
 
         <section>
           <h3>Other</h3>
-          <a href="https://github.com/Gregoire-Paulay">
-            <i className="fa-brands fa-github"></i>
-            <p>Git & GitHub</p>
-          </a>
-          <a href="https://www.adobe.com/fr/products/illustrator.html">
-            <img src={ai} alt="Logo Adobe illustrator" />
-            <p>Abode Illustrator</p>
-          </a>
+          <div className="homeSkillsDetails">
+            <a href="https://github.com/Gregoire-Paulay">
+              <i className="fa-brands fa-github"></i>
+              <p>Git & GitHub</p>
+            </a>
+            <a href="https://www.adobe.com/fr/products/illustrator.html">
+              <img src={ai} alt="Logo Adobe illustrator" />
+              <p>Abode Illustrator</p>
+            </a>
+          </div>
         </section>
       </div>
     </section>

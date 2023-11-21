@@ -140,7 +140,7 @@ header {
   border-bottom: 1px solid lightgray;
 }
 header > div {
-  /* border: 2px solid green; */
+  /* border: 5px solid green; */
   display: flex;
   justify-content: center;
 }
@@ -214,9 +214,11 @@ header > div {
 }
 
 .homeLink {
+  /* border: 3px solid green; */
   display: flex;
   gap: 23px;
   margin-top: 35px;
+  width: 99%;
 }
 
 .homeSkills {
@@ -224,18 +226,26 @@ header > div {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 95%;
 }
 .homeSkills > div {
   /* border: 2px solid blue; */
   display: flex;
   gap: 80px;
+  width: 100%;
+  justify-content: center;
 }
 .homeSkills > div > section {
   /* border: 3px solid green; */
   display: flex;
   flex-direction: column;
-  gap: 15px;
   align-items: center;
+}
+.homeSkillsDetails {
+  /* border: 5px solid coral; */
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 .homeSkills h3 {
   padding-bottom: 25px;
@@ -268,10 +278,11 @@ header > div {
 }
 
 .homeProject {
-  /* border: 3px solid red; */
+  /* border: 3px solid saddlebrown; */
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 98%;
 }
 .homeProject h3 {
   margin-bottom: 10px;
@@ -290,7 +301,6 @@ header > div {
 .homeProject > div {
   /* border: 2px solid coral; */
   display: flex;
-  width: 95%;
   gap: 30px;
 }
 .homeProject > div p {
@@ -301,7 +311,7 @@ header > div {
   background-color: var(--bcgLight);
   padding: 10px;
   border-radius: 12px;
-  width: 30%;
+  width: 280px;
   position: relative;
   top: 0;
 }
@@ -310,7 +320,7 @@ header > div {
   background-color: var(--bcgDark);
   padding: 10px;
   border-radius: 12px;
-  width: 30%;
+  width: 280px;
   position: relative;
   top: 0;
 }
@@ -338,6 +348,9 @@ header > div {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.homeContacts > p {
+  text-align: center;
 }
 
 /* ----------- PAGE ABOUTME ---------- */
@@ -514,6 +527,7 @@ header > div {
 }
 
 .projectLinks {
+  /* border: 3px solid darkorchid; */
   display: flex;
   gap: 23px;
   margin-top: 35px;
@@ -539,6 +553,11 @@ header > div {
   width: 400px;
 }
 .message input {
+  border: 1px solid black;
+  border-radius: 12px;
+  padding: 12px 8px;
+}
+.message textarea {
   border: 1px solid black;
   border-radius: 12px;
   padding: 12px 8px;
@@ -663,8 +682,152 @@ footer a:hover {
   }
 }
 
+/* ----------- MEDIA 1100PX ---------- */
+@media (max-width: 1100px) {
+  .homeProjectGit {
+    flex-direction: column;
+    width: 60%;
+    gap: 10px;
+    margin-left: 20%;
+  }
+}
+
+/* ----------- MEDIA 1000PX ---------- */
+@media (max-width: 1100px) {
+  .homeProject > div {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* ----------- MEDIA 900PX ----------- */
+@media (max-width: 900px) {
+  header {
+    height: 110px;
+    padding-bottom: 10px;
+    align-items: flex-end;
+  }
+
+  .homeSkills > div {
+    gap: 40px;
+  }
+
+  .allProjects {
+    width: 100%;
+  }
+  .allProjects img {
+    width: 99%;
+  }
+}
+
+/* ----------- MEDIA 700PX ----------- */
+@media (max-width: 700px) {
+  .header-nav {
+    width: 90%;
+  }
+  .profile {
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+  }
+}
+
+/* ----------- MEDIA 600PX ----------- */
+@media (max-width: 600px) {
+  .homeLink {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .homeSkills > div {
+    flex-direction: column;
+  }
+  .homeSkillsDetails {
+    flex-direction: row;
+  }
+
+  .aboutMeDescLight > p {
+    width: 95%;
+  }
+  .aboutMeDescNight > p {
+    width: 95%;
+  }
+
+  .projectHookLight {
+    width: 95%;
+  }
+  .projectHookDark {
+    width: 95%;
+  }
+  .projectNav {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+  }
+
+  .contactLink {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+}
+
 /* ----------- MEDIA 500PX ----------- */
 @media (max-width: 500px) {
+  header {
+    height: 150px;
+  }
+  .header-nav {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .header-nav > button {
+    width: 150px;
+  }
+  .nav-first {
+    border-bottom-left-radius: 0;
+  }
+  .header-nav > button:nth-child(2) {
+    border-top-right-radius: 12px;
+  }
+  .header-nav > button:nth-child(3) {
+    border-bottom-left-radius: 12px;
+  }
+  .nav-last {
+    border-top-right-radius: 0;
+  }
+
+  .homeSkillsDetails {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .techno {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    width: 90%;
+  }
+  .techno img {
+    width: 60px;
+    height: 60px;
+  }
+  .projectLinks {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .message > div {
+    width: 95%;
+  }
+  .message input {
+    width: 100%;
+  }
+  .message textarea {
+    width: 100%;
+  }
+
   footer > div > div:first-of-type {
     flex-direction: column;
     align-items: center;
@@ -675,5 +838,12 @@ footer a:hover {
   }
   .footerMe {
     text-align: center;
+  }
+}
+
+/* ----------- MEDIA 400PX ----------- */
+@media (max-width: 400px) {
+  .projectNav {
+    width: 95%;
   }
 }

@@ -97,9 +97,12 @@ const Contacts = () => {
               ? "Veuillez saisir votre message :"
               : "Please enter your message :"}
           </label>
-          <input
+          <textarea
             type="text"
             id="message"
+            rows={10}
+            cols={64}
+            name="message"
             placeholder={language === "fr" ? "Votre message" : "Your message"}
             onChange={(event) => {
               handleChange(event, setMessage);
