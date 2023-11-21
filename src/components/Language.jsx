@@ -14,12 +14,15 @@ const Language = () => {
         className={languageButton}
         onClick={() => {
           if (language === "fr") {
-            Cookies.remove("language");
+            const language = "en";
+            Cookies.set("language", language, { expires: 15 });
+            // Cookies.remove("language");
             setLanguage("en");
             setLanguageButton("enButton");
           } else {
-            const language = "en";
-            Cookies.set("language", language, { expires: 15 });
+            // const language = "en";
+            // Cookies.set("language", language, { expires: 15 });
+            Cookies.remove("language");
             setLanguage("fr");
             setLanguageButton("frButton");
           }
