@@ -3,18 +3,18 @@
     "name": "Vinted",
     "type": "Projet Full-Stack Web",
     "descriptionFr": "Ce projet est une réplique du site Vinted. Différents filtres sont disponibles pour affiner les offres visibles. Une fois authentifié, l'utilisateur peut créer et acheter des offres. l'API utilisée pour les achats est Stripe.",
-    "descriptionEn": "",
+    "descriptionEn": "This project is a replica of the Vinted site. Different filters are available to refine the visible offers. Once authenticated, the user can create and purchase offers. The API used for purchases is Stripe.",
     "techno": [
       {
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgyjh6v-cC_N5ASJ7hG9Hk5_7OFyKzvNQbRw&usqp=CAU",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/langfr-1024px-React-icon.svg.png",
         "name": "React"
       },
       {
-        "logo": "https://banner2.cleanpng.com/20180425/jrw/kisspng-node-js-javascript-web-application-express-js-comp-5ae0f84e2a4242.1423638015246930701731.jpg",
+        "logo": "https://static-00.iconduck.com/assets.00/node-js-icon-1901x2048-mk1e13df.png",
         "name": "Node.js"
       },
       {
-        "logo": "https://e7.pngegg.com/pngimages/768/167/png-clipart-mongodb-nosql-document-oriented-database-nosql-icon-leaf-grass.png",
+        "logo": "https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png",
         "name": "MongoDB"
       }
     ],
@@ -27,18 +27,18 @@
     "name": "Marvel",
     "type": "Projet Full-Stack Web",
     "descriptionFr": "Ce projet recense tous les héros et les comics Marvel et permet donc d'obtenir des informations tel que la liste des comics ou l'on trouve Spider-Man. Une barre de recherche est disponible afin de faciliter la recherche des utilisateurs. Une fois authentifié, l'utilisateur peut ajouter/supprimez des personnages ou des des comics dans sa liste de favoris et les consulter.",
-    "descriptionEn": "",
+    "descriptionEn": "This project lists all Marvel heroes and comics, therefore it allows you to obtain information such as the list of comics where Spider-Man is present. A search bar is available to make it easier for users to search heroes and comics. Once authenticated, the user can add/delete characters and comics from their favorites list and consult them.",
     "techno": [
       {
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgyjh6v-cC_N5ASJ7hG9Hk5_7OFyKzvNQbRw&usqp=CAU",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/langfr-1024px-React-icon.svg.png",
         "name": "React"
       },
       {
-        "logo": "https://banner2.cleanpng.com/20180425/jrw/kisspng-node-js-javascript-web-application-express-js-comp-5ae0f84e2a4242.1423638015246930701731.jpg",
+        "logo": "https://static-00.iconduck.com/assets.00/node-js-icon-1901x2048-mk1e13df.png",
         "name": "Node.js"
       },
       {
-        "logo": "https://e7.pngegg.com/pngimages/768/167/png-clipart-mongodb-nosql-document-oriented-database-nosql-icon-leaf-grass.png",
+        "logo": "https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png",
         "name": "MongoDB"
       }
     ],
@@ -51,18 +51,18 @@
     "name": "TechSight",
     "type": "Projet Full-Stack Mobile",
     "descriptionFr": "Application de Veille Technologique qui permet de se tenir informé grâce à un feed d'actualités mis à jour quotidiennement avec des articles provenant de différents média (HackerNews, Media, Lorber Newsletter). Possibilités d'ajouter les articles en favoris mais également de les partager sur ses réseaux. Un jeu de type flipcards avec différents thèmes et difficultés est présent afin de tester ses connaissances dans le domaine de la tech / du développement.",
-    "descriptionEn": "",
+    "descriptionEn": "Technology Monitoring application which allows you to stay informed thanks to a news feed updated daily with articles from different media (HackerNews, Media, Lorber Newsletter). Possibilities to add articles to favorites but also to share them on your networks. A flipcard type game with different themes and difficulties is present to test your knowledge in the  tech and development fields.",
     "techno": [
       {
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgyjh6v-cC_N5ASJ7hG9Hk5_7OFyKzvNQbRw&usqp=CAU",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/langfr-1024px-React-icon.svg.png",
         "name": "React-Native / Expo"
       },
       {
-        "logo": "https://banner2.cleanpng.com/20180425/jrw/kisspng-node-js-javascript-web-application-express-js-comp-5ae0f84e2a4242.1423638015246930701731.jpg",
+        "logo": "https://static-00.iconduck.com/assets.00/node-js-icon-1901x2048-mk1e13df.png",
         "name": "Node.js"
       },
       {
-        "logo": "https://e7.pngegg.com/pngimages/768/167/png-clipart-mongodb-nosql-document-oriented-database-nosql-icon-leaf-grass.png",
+        "logo": "https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png",
         "name": "MongoDB"
       },
       {
@@ -79,10 +79,10 @@
     "name": "Poké-Info",
     "type": "Projet Web",
     "descriptionFr": "Projet qui recense et donne des détails sur tout les pokémons , types, talent et capacités exisantes. Les données utilisés proviennent toutes de l'API Pokémon - PokéAPI. Utilisation de Zod afin de valider dynamiquement les données provenant de l'API.",
-    "descriptionEn": "",
+    "descriptionEn": "Project which lists and gives details on all existing pokemon, types, talents and abilities. The data used all comes from the Pokémon API - PokéAPI. Use of Zod to dynamically validate data coming from the API.",
     "techno": [
       {
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgyjh6v-cC_N5ASJ7hG9Hk5_7OFyKzvNQbRw&usqp=CAU",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/langfr-1024px-React-icon.svg.png",
         "name": "React"
       },
       {

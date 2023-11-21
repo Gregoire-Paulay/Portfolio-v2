@@ -6,7 +6,9 @@ const Footer = () => {
           <div className="footerDescription">
             <p>Grégoire Paulay</p>
             <p>56450 - Surzur, France</p>
-            <p>gregoirepaulay.pro@gmail.com</p>
+            <a href="mailto:gregoirepaulay.pro@gmail.com">
+              gregoirepaulay.pro@gmail.com
+            </a>
             <p>06 23 29 73 02</p>
           </div>
 

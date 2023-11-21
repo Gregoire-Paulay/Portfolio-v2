@@ -13,10 +13,12 @@ const HomeLink = () => {
           <p>Linkedin</p>
         </button>
       </a>
-      <button className="contact">
-        <i className="fa-solid fa-envelope"></i>
-        <p>gregoirepaulay.pro@gmail.com</p>
-      </button>
+      <a href="mailto:gregoirepaulay.pro@gmail.com">
+        <button className="contact">
+          <i className="fa-solid fa-envelope"></i>
+          <p>gregoirepaulay.pro@gmail.com</p>
+        </button>
+      </a>
     </section>
   );
 };

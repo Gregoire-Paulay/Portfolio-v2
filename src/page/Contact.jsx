@@ -42,7 +42,7 @@ const Contacts = () => {
   return (
     <div className="container">
       <form className="message" onSubmit={handleSubmit}>
-        <h2>Contacts</h2>
+        <h1>Contacts</h1>
         <div>
           <label htmlFor="name">
             {language === "fr"

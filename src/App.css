@@ -2,6 +2,7 @@
 :root {
   --dark: #111111;
   --light: white;
+  --orange: #dea923;
   --bcgLight: #d7eef7;
   --bcgDark: #1d2529;
 }
@@ -112,6 +113,22 @@ h3 {
   color: var(--bcgLight);
 }
 
+/* -------------- LIEN ------------- */
+.contact {
+  display: flex;
+  gap: 15px;
+  font-size: 17px;
+  background-color: #2858c8;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 12px;
+}
+.contact:hover {
+  cursor: pointer;
+  background-color: #1f4295;
+}
+
 /* ----------------------------------- */
 /* -------------- HEADER ------------- */
 /* ----------------------------------- */
@@ -200,20 +217,6 @@ header > div {
   display: flex;
   gap: 23px;
   margin-top: 35px;
-}
-.contact {
-  display: flex;
-  gap: 15px;
-  font-size: 17px;
-  background-color: #2858c8;
-  color: white;
-  border: none;
-  padding: 6px 10px;
-  border-radius: 12px;
-}
-.contact:hover {
-  cursor: pointer;
-  background-color: #1f4295;
 }
 
 .homeSkills {
@@ -385,6 +388,140 @@ header > div {
 }
 
 /* ----------- PAGE PROJECTS --------- */
+.projectsPage {
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.projectHookLight {
+  width: 70%;
+  line-height: 22px;
+  margin-bottom: 55px;
+  background-color: var(--bcgLight);
+  color: black;
+  padding: 12px;
+  border-radius: 12px;
+}
+.projectHookLight > a {
+  color: black;
+  text-decoration: none;
+}
+.projectHookLight > a:hover {
+  color: var(--orange);
+}
+.projectHookDark {
+  width: 70%;
+  line-height: 22px;
+  margin-bottom: 55px;
+  background-color: var(--bcgDark);
+  color: white;
+  padding: 12px;
+  border-radius: 12px;
+}
+.projectHookDark > a {
+  color: white;
+  text-decoration: none;
+}
+.projectHookDark > a:hover {
+  color: var(--orange);
+}
+
+.projectNav {
+  border: 1px solid var(--bcgDark);
+  display: flex;
+  background-color: var(--bcgLight);
+  border-radius: 12px;
+}
+.projectNav > a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 8px 25px;
+  border-radius: 12px;
+}
+.projectNav > a:hover {
+  cursor: pointer;
+  background-color: var(--bcgDark);
+  color: white;
+}
+
+.allProjects {
+  /* border: 3px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  width: 90%;
+  margin-top: 30px;
+}
+.allProjects img {
+  width: 70%;
+  margin-top: 15px;
+  border-radius: 15px;
+  border: 2px solid var(--bcgDark);
+}
+.allProjects > div {
+  /* border: 3px solid purple; */
+  border-top: 1px solid gray;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.techno {
+  border: 2px solid var(--bcgDark);
+  display: flex;
+  gap: 50px;
+  padding: 8px 45px;
+  margin-top: 25px;
+  border-radius: 50px;
+  margin-bottom: 60px;
+}
+.techno > div {
+  /* border: 1px solid yellow; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.techno img {
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+  border: none;
+}
+
+.projectDescriptionLight {
+  border: 2px solid var(--bcgDark);
+  width: 80%;
+  padding: 10px 25px;
+  border-radius: 15px;
+  background-color: var(--bcgLight);
+  line-height: 22px;
+  font-size: 18px;
+}
+.projectDescriptionDark {
+  border: 2px solid var(--bcgLight);
+  width: 80%;
+  padding: 10px 25px;
+  border-radius: 15px;
+  background-color: var(--bcgDark);
+  line-height: 22px;
+  font-size: 18px;
+}
+
+.projectLinks {
+  display: flex;
+  gap: 23px;
+  margin-top: 35px;
+}
+.projectLinks a {
+  text-decoration: none;
+}
+
 /* ----------- PAGE CONTACT ---------- */
 .message {
   /* border: 1px solid red; */
@@ -392,7 +529,7 @@ header > div {
   flex-direction: column;
   align-items: center;
   gap: 50px;
-  margin-top: 80px;
+  margin-top: 50px;
 }
 .message > div {
   /* border: 2px solid purple; */
@@ -500,7 +637,7 @@ footer > div > div:first-of-type {
   gap: 3px;
 }
 .footerLink > p:first-child {
-  color: #dea923;
+  color: var(--orange);
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 5px;
@@ -512,7 +649,7 @@ footer a {
 }
 footer a:hover {
   cursor: pointer;
-  color: #d3a026;
+  color: var(--orange);
 }
 
 /* ----------------------------------- */
