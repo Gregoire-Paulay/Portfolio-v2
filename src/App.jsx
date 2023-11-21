@@ -6,7 +6,7 @@ import { useThemeContext } from "./context/theme-context";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Theme from "./components/Theme";
-import Language from "./components/language";
+import Language from "./components/Language";
 
 //Page
 import Home from "./page/Home";
