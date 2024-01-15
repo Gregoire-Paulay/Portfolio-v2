@@ -16,12 +16,12 @@ const Projects = () => {
                 theme === "light" ? "projectHookLight" : "projectHookDark"
               }
             >
-              Ici vous pouvez voir quelques un des projets que j'ai pu réaliser.
-              Au delà des fonctionnalités de l'application il me semblent
-              indispensable d'intéger certains concepts comme l'accessibilité,
-              la sécurité ainsi qu'un contenu responsive au sein de mes
-              créations. Excépté le projet TechSight, tout mes autres projets
-              sont documentés dans mon{" "}
+              Ici vous pouvez voir quelques uns des projets que j'ai pu
+              réaliser. Au delà des fonctionnalités de l'application il me
+              semble indispensable d'intéger certains concepts comme
+              l'accessibilité, la sécurité ainsi qu'un contenu responsive au
+              sein de mes créations. Excépté le projet TechSight, tout mes
+              autres projets sont documentés dans mon{" "}
               <a href="https://github.com/Gregoire-Paulay">GitHub</a>.
             </p>
           ) : (

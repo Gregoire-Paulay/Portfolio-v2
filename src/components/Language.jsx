@@ -16,12 +16,9 @@ const Language = () => {
           if (language === "fr") {
             const language = "en";
             Cookies.set("language", language, { expires: 15 });
-            // Cookies.remove("language");
             setLanguage("en");
             setLanguageButton("enButton");
           } else {
-            // const language = "en";
-            // Cookies.set("language", language, { expires: 15 });
             Cookies.remove("language");
             setLanguage("fr");
             setLanguageButton("frButton");

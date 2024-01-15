@@ -17,11 +17,11 @@ const AboutMe = () => {
             <p>
               Salut, je suis Grégoire Paulay, un développeur Full-Stack Web et
               Mobile Junior. Je suis un ancien géologue spécialisé dans le
-              littoral qui à décider il y a plusieurs mois de se reconvertir
-              dans le monde incroyable du développement web et mobile.
+              littoral qui à décidé il y a plusieurs mois de se reconvertir dans
+              le monde incroyable du développement web et mobile.
             </p>
             <p>
-              Je viens de terminez ma formation chez
+              Je viens de terminer ma formation chez
               <a href="https://www.lereacteur.io"> Le Reacteur</a> et suis
               actuellement à la recherche d'un stage de 6 mois pour obtenir mon
               titre RNCP lié à cette formation.
