@@ -75,24 +75,29 @@
     "picture": "https://res.cloudinary.com/dy2ayuond/image/upload/v1699022017/TechSight.png",
     "link": "https://appetize.io/app/pakq7wyr73bfs6u3p3d2g2n2ay?device=pixel7&osVersion=13.0"
   },
+
   {
-    "name": "Poké-Info",
-    "type": "Projet Web",
-    "descriptionFr": "Projet qui recense et donne des détails sur tous les pokémons , types, talent et capacités exisantes. Les données utilisés proviennent toutes de l'API Pokémon - PokéAPI. Utilisation de Zod afin de valider dynamiquement les données provenant de l'API.",
-    "descriptionEn": "Project which lists and gives details on all existing pokemon, types, talents and abilities. The data used all comes from the Pokémon API - PokéAPI. Use of Zod to dynamically validate data coming from the API.",
+    "name": "Movies",
+    "type": "Projet Mobile",
+    "descriptionFr": "Cette app qui permet d'avoir une liste des films populaires du moment ainsi qu'une fiche détaillé pour chacun d'entre eux. Il est également possible pour les utilisateurs de créer une review pour chaque film et de les supprimer si besoin.",
+    "descriptionEn": "This app allows you to have access to a list of popular movies of the moment as well as a detailed file for each of them. it is also possible to create a review for each film and delete them if necessary.",
     "techno": [
       {
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/langfr-1024px-React-icon.svg.png",
-        "name": "React"
+        "name": "React-Native / Expo"
       },
       {
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png?20221110153201",
         "name": "TypeScript"
+      },
+      {
+        "logo": "https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png",
+        "name": "MongoDB"
       }
     ],
-    "github-front": "https://github.com/Gregoire-Paulay/Poke-Info",
-    "github-back": "",
-    "picture": "https://res.cloudinary.com/dy2ayuond/image/upload/v1699016062/PokéInfo-Home.png",
-    "link": "https://pokeinfo-gp.netlify.app/"
+    "github-front": "https://github.com/Gregoire-Paulay/Movies-React-Native",
+    "github-back": "https://github.com/Gregoire-Paulay/Movies-Backend",
+    "picture": "https://res.cloudinary.com/dy2ayuond/image/upload/v1708475123/movies/Portfolio.png",
+    "link": ""
   }
 ]
