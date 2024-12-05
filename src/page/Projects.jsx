@@ -42,7 +42,7 @@ const Projects = () => {
             <a href="#Vinted">Vinted</a>
             <a href="#Marvel">Marvel</a>
             <a href="#TechSight">TechSight</a>
-            <a href="#Poké-Info">Poké-Info</a>
+            <a href="#Movies">Movies</a>
           </nav>
 
           <div className="allProjects">
